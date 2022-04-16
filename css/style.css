@@ -18,11 +18,9 @@
          #header {
              display: flex;
             justify-content: space-between;
-            height: 100px;
-            padding: 10px;
+            height: 100%;
             align-items:center;
             }
-            
         
         #header .header__menu ul{
             display: flex;
@@ -173,5 +171,10 @@
         
         }
         
-
+.copyright{
+    text-align: center;
+    height: 40px;
+    font-size: small;
+  
+}
 
