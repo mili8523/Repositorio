@@ -1,0 +1,32 @@
+#header {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	align-items: center;
+	.header__menu {
+		ul {
+			display: flex;
+			list-style: none;
+			text-transform: uppercase;
+			font-weight: 600;
+			font-size: small;
+			li {
+				margin: 0 15px;
+			}
+		}
+	}
+}
+#btn-menu {
+	display: none;
+}
+header {
+	label {
+		display: none;
+		padding: 10px;
+		width: 30px;
+		height: 30px;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}
