@@ -16,3 +16,53 @@ a {
 @import 'footer';
 
 
+.recomendaciones {
+	padding-left: 50px;
+	padding-top: 25px
+}
+
+.recomendaciones img {
+	margin-top: -190px;
+	margin-left: 300px;
+}
+
+
+
+
+
+@mixin btn {
+	display: inline-block;
+	padding: 10px;
+	font-size: 15px;
+	text-decoration: none;
+	color: white
+}
+
+.btn--instagram {
+@include btn;
+background-color: blueviolet;
+}
+
+.btn--fbk {
+	@include btn;
+	background-color: blue;
+}
+ .btn--tw {
+	 @include btn;
+	 background-color: lightblue;
+ }
+
+$estilos:(
+	color:rgb(127, 119, 119),
+	fuente:large,
+	alineacion:start,
+	20px: 20px,
+	bg:rgb(207, 187, 187)
+);
+
+.text1 {
+color: map-get($map:$estilos, $key:color );
+text-align: map-get($map: $estilos, $key:alineacion );
+font-size: map-get($map: $estilos, $key: fuente);
+padding: map-get($map: $estilos, $key:20px );
+}

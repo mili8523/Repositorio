@@ -199,3 +199,47 @@ p {
         grid-template-rows: 1fr 1fr 1fr;
   }
 }
+
+.recomendaciones {
+  padding-left: 50px;
+  padding-top: 25px;
+}
+
+.recomendaciones img {
+  margin-top: -190px;
+  margin-left: 300px;
+}
+
+.btn--instagram {
+  display: inline-block;
+  padding: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  background-color: blueviolet;
+}
+
+.btn--fbk {
+  display: inline-block;
+  padding: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+}
+
+.btn--tw {
+  display: inline-block;
+  padding: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  background-color: lightblue;
+}
+
+.text1 {
+  color: #7f7777;
+  text-align: start;
+  font-size: large;
+  padding: 20px;
+}
