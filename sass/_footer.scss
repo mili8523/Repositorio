@@ -19,8 +19,11 @@
 }
 .copyright {
 	text-align: center;
-	height: 40px;
+	height: 100%;
+	width: 100%;
 	font-size: small;
+	background: rgba(186, 181, 181, 0.942);
+	padding: 20px;
 }
 @media screen and (max-width:320px) {
 	#header {
