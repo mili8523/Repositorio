@@ -7,8 +7,8 @@
 }
 
 body {
-  background: -webkit-gradient(linear, right top, left top, from(#fcb1b1), to(#daa1a1));
-  background: linear-gradient(to left, #fcb1b1, #daa1a1);
+  background: -webkit-gradient(linear, right top, left top, from(#e4e4e4), to(#ececec));
+  background: linear-gradient(to left, #e4e4e4, #ececec);
 }
 
 a {
